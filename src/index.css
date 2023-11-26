@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1548428938-b1063c60f386?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHJvbWFudGljfGVufDB8fDB8fHwy');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.title h1 {
+  font-family: 'Ephesis', cursive;
+  font-size: 3rem;
+  text-shadow: 1px 6px 6px rgba(0, 0, 0, 0.62);
+}
+
+.title i {
+  font-size: 2rem;
+}
+
+.title h1, i {
+  color: #eee;
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+img {
+  height: 80%;
+  border-radius: 20px;
+  border: 1px solid #a2a2a2;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 180px;
+}
+
+.buttons button {
+  background-color: #808080c8;
+  opacity: 0.5;
+  color: #ffffffc9;
+  border-radius: 50%;
+  padding: 1rem;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  opacity: 1;
+}
